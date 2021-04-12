@@ -1,0 +1,1 @@
+https://khankhuu.github.io/Lab2/index.html
