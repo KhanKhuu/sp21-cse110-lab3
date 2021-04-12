@@ -13,6 +13,7 @@
             <a href="/Lab2/images/cat.jpg">Cat</a>
         </nav> 
     </header>
+
     <body>
         <main>
             <section>
@@ -85,7 +86,7 @@
                         <input type="text"><br>
                         <br>
                         <label for="public">Public:</label>
-                        <input type="checkbox" name="public">
+                        <input type="checkbox" name="public" id="public">
                         <p>Entry</p> 
                         <textarea rows="5" cols="75"> </textarea>
                         <br>
@@ -102,7 +103,7 @@
                             </datalist>
 
                             <p>Entry Type:</p>
-                            <select name="post type" id="ptype">
+                            <select name="post type" name="ptype" id="ptype">
                                 <option value="Daily">Daily</option>
                                 <option value="Quote">Quote</option>
                                 <option value="Multimedia">Multimedia</option>
@@ -113,7 +114,7 @@
                             <br>
                             <br>
                             <label for="explicit">Explicit:</label>
-                            <input type="radio" name="explicit">
+                            <input type="radio" name="explicit" id="explicit">
                             <br>
                         </fieldset>
                     <button type="submit">Post!</button> 
