@@ -19,6 +19,10 @@
                 <h2>Friday</h2>
                 <h3>New PC Day</h3>
                 <p>Finished my <em>first</em> ever PC build at 4am. It was stressful and rewarding. Stressful because I was making my first attempt at something and was worried about damaging the expensive equipment, and also was so pumped to get it done that I was pretty sure I would end up behind in classwork because of it. Rewarding when I booted it up and played my first round of Rocket League.</p>
+                <b> Memory of the day:</b> <p>This song I made in February:</p>
+                <audio controls>
+                    <source src="audio/take_3.wav" type="audio/wav">
+                </audio> 
             </section>
 
             <section>
@@ -64,12 +68,65 @@
                         <strong>Picked Gana up at the airport :)</strong>
                     </li>
                 </ol>
+
+                <b> Memory of the day:</b> <p>That time I held a naked Ryzen 7 in my hand:</p>
+                <video width="300" height="400" controls>
+                    <source src="video/processor.mp4" type="video/mp4">
+                </video> 
+            </section>
+
+            <section>
+                <h4>Create new entry:</h4>
+                <form action="images/cat.jpg" method="get">
+                    <fieldset>
+                        <p>Date:</p> 
+                        <input type="date">
+                        <p>Title:</p> 
+                        <input type="text"><br>
+                        <br>
+                        <label for="public">Public:</label>
+                        <input type="checkbox" name="public">
+                        <p>Body</p> 
+                        <textarea rows="5" cols="75"> </textarea>
+                        <br>
+                        <p>Day of the Week:</p>
+                        <input list="Day" name="day" id="day">
+                            <datalist id="Day">
+                                <option value="Monday"></option>
+                                <option value="Tuesday"></option>
+                                <option value="Wednesday"></option>
+                                <option value="Thursday"></option>
+                                <option value="Friday"></option>
+                                <option value="Saturday"></option>
+                                <option value="Sunday"></option>
+                            </datalist>
+
+                            <p>Entry Type:</p>
+                            <select name="post type" id="ptype">
+                                <option value="Daily">Daily</option>
+                                <option value="Quote">Quote</option>
+                                <option value="Multimedia">Multimedia</option>
+                                <option value="Venting">Venting</option>
+                                <option value="Gratitude">Gratitude</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <br>
+                            <br>
+                            <label for="explicit">Explicit:</label>
+                            <input type="radio" name="explicit">
+                            <br>
+                        </fieldset>
+                    <button type="submit">Post!</button> 
+                </form> 
             </section>
         </main>
     </body>
 
     <footer>
-        <p>Author: Matthew Larkins</p>
+        <details>
+            <summary>Author: Matthew Larkins</summary>
+            <img src="images/tree_n_me.png" alt="Matthew Larkins" width="300" height="300">
+          </details>
         <i>Last Update: 04/11/2021</i>
     </footer> 
 </html>
