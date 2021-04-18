@@ -1,1 +1,1 @@
-https://khankhuu.github.io/Lab2/index.html
+https://khankhuu.github.io/sp21-cse110-lab3/
