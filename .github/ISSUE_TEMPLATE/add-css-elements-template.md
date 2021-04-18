@@ -1,6 +1,6 @@
 ---
 name: Add CSS elements template
-about: Use this template to request neww CSS elemetns to be added to the project page.
+about: Use this template to request new CSS elements to be added to the project page.
 title: "[CSS Elements]"
 labels: add css elements
 assignees: ''
